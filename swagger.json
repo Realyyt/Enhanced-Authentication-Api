@@ -1,0 +1,29 @@
+{
+  "/api/users": {
+    "get": {
+      "description": "Returns all users",
+      "responses": {
+        "200": {
+          "description": "Success"
+        }
+      }
+    }
+  },
+  "/api/users/{id}": {
+    "get": {
+      "description": "Returns a specific user by ID"
+    },
+    "put": {
+      "description": "Updates a specific user by ID"
+    },
+    "delete": {
+      "description": "Deletes a specific user by ID"
+    }
+  },
+
+  "/api/users/new": {
+    "post": {
+      "description": "Creates a new user"
+    }
+  }
+}
